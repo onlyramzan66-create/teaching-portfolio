@@ -1,0 +1,86 @@
+const { spawn } = require("node:child_process");
+const http = require("node:http");
+
+const BACKEND_PORT = process.env.PORT || 5000;
+const BACKEND_URL = `http://localhost:${BACKEND_PORT}/posts?limit=1`;
+const STARTUP_TIMEOUT_MS = 120000;
+const POLL_INTERVAL_MS = 1500;
+
+function waitForBackend(url, timeoutMs) {
+  return new Promise((resolve, reject) => {
+    const start = Date.now();
+
+    const tick = () => {
+      const req = http.get(url, (res) => {
+        res.resume();
+        if (res.statusCode && res.statusCode >= 200 && res.statusCode < 500) {
+          resolve();
+          return;
+        }
+        retry();
+      });
+
+      req.on("error", retry);
+    };
+
+    const retry = () => {
+      if (Date.now() - start > timeoutMs) {
+        reject(new Error("Backend did not start in time"));
+        return;
+      }
+      setTimeout(tick, POLL_INTERVAL_MS);
+    };
+
+    tick();
+  });
+}
+
+async function run() {
+  const backend = spawn("node", ["backend/dist/main.js"], {
+    stdio: "inherit",
+    env: process.env,
+  });
+
+  const cleanup = () => {
+    if (!backend.killed) {
+      backend.kill("SIGTERM");
+    }
+  };
+
+  process.on("exit", cleanup);
+  process.on("SIGINT", () => {
+    cleanup();
+    process.exit(1);
+  });
+  process.on("SIGTERM", () => {
+    cleanup();
+    process.exit(1);
+  });
+
+  try {
+    await waitForBackend(BACKEND_URL, STARTUP_TIMEOUT_MS);
+  } catch (error) {
+    cleanup();
+    throw error;
+  }
+
+  const nextBuild = spawn("npx", ["next", "build"], {
+    stdio: "inherit",
+    env: process.env,
+  });
+
+  const exitCode = await new Promise((resolve) => {
+    nextBuild.on("exit", resolve);
+  });
+
+  cleanup();
+
+  if (exitCode !== 0) {
+    process.exit(exitCode ?? 1);
+  }
+}
+
+run().catch((error) => {
+  console.error(error);
+  process.exit(1);
+});
