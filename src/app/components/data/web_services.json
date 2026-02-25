@@ -1,0 +1,142 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "title": "Personal Portfolio Website",
+      "slug": "personal-portfolio",
+      "description": "A modern, fast, and responsive personal portfolio website to showcase your skills, experience, and projects professionally. Perfect for developers, designers, and creative professionals.",
+      "price": 99,
+      "delivery": "3 - 5 Days",
+      "rating": 4.9,
+      "reviews": 127,
+      "features": [
+        "Responsive UI/UX Design",
+        "Modern React/Next.js Framework",
+        "SEO Optimization",
+        "Contact Form Integration",
+        "Social Media Links",
+        "Project Showcase Gallery",
+        "Performance Optimized",
+        "Mobile-First Design"
+      ],
+      "technologies": ["Next.js", "React", "Tailwind CSS", "Framer Motion"],
+      "includes": ["Domain Setup Guide", "Deployment Instructions", "1 Month Support"],
+      "image": "/website/prot.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Business Website",
+      "slug": "business-website",
+      "description": "Professional business website for companies, startups, and brands with scalable architecture, admin management, and modern design. Includes everything needed for a successful online presence.",
+      "price": 199,
+      "delivery": "5 - 7 Days",
+      "rating": 4.8,
+      "reviews": 89,
+      "features": [
+        "Custom Design & Branding",
+        "Admin Panel (CMS)",
+        "SEO Optimization",
+        "Fast Performance",
+        "Contact Forms",
+        "Blog/Content Management",
+        "Analytics Integration",
+        "SSL Security"
+      ],
+      "technologies": ["Next.js", "Node.js", "MongoDB", "Tailwind CSS", "Stripe"],
+      "includes": ["Admin Training", "Content Upload Guide", "3 Months Support", "Performance Monitoring"],
+      "image": "/website/business.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Full Stack Web Application",
+      "slug": "full-stack-app",
+      "description": "Complete MERN stack web application including modern frontend, robust backend APIs, secure authentication, database integration, and deployment. Production-ready solution for startups and businesses.",
+      "price": 399,
+      "delivery": "10 - 14 Days",
+      "rating": 4.9,
+      "reviews": 56,
+      "features": [
+        "React/Next.js Frontend",
+        "Node.js/NestJS Backend",
+        "MongoDB Database",
+        "JWT Authentication",
+        "Role-Based Access",
+        "API Documentation",
+        "Real-time Features",
+        "Payment Integration"
+      ],
+      "technologies": ["React", "Next.js", "Node.js", "NestJS", "MongoDB", "Redis", "AWS"],
+      "includes": ["Source Code", "API Documentation", "Deployment Guide", "6 Months Support", "Security Audit"],
+      "image": "/website/full.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Backend API Development",
+      "slug": "backend-api",
+      "description": "Secure and scalable backend API development using Node.js, Express, and NestJS. Perfect for web and mobile applications requiring robust server-side functionality.",
+      "price": 249,
+      "delivery": "7 - 10 Days",
+      "rating": 4.7,
+      "reviews": 73,
+      "features": [
+        "RESTful API Design",
+        "GraphQL Support",
+        "Database Integration",
+        "Authentication & Security",
+        "Rate Limiting",
+        "Error Handling",
+        "Logging & Monitoring",
+        "API Testing Suite"
+      ],
+      "technologies": ["Node.js", "NestJS", "Express", "MongoDB", "PostgreSQL", "Redis"],
+      "includes": ["API Documentation", "Postman Collection", "Testing Scripts", "3 Months Support"],
+      "image": "/website/api.jpg"
+    },
+    {
+      "id": 5,
+      "title": "E-commerce Website",
+      "slug": "ecommerce-website",
+      "description": "Complete e-commerce solution with product management, shopping cart, payment processing, and order management. Built for online stores and digital marketplaces.",
+      "price": 349,
+      "delivery": "12 - 16 Days",
+      "rating": 4.8,
+      "reviews": 42,
+      "features": [
+        "Product Catalog Management",
+        "Shopping Cart & Checkout",
+        "Payment Gateway Integration",
+        "Order Management System",
+        "Inventory Tracking",
+        "Customer Accounts",
+        "Admin Dashboard",
+        "Multi-currency Support"
+      ],
+      "technologies": ["Next.js", "Node.js", "MongoDB", "Stripe", "PayPal", "Tailwind CSS"],
+      "includes": ["Payment Setup", "Product Upload Guide", "Order Management Training", "6 Months Support"],
+      "image": "/website/business.jpg"
+    },
+    {
+      "id": 6,
+      "title": "SaaS Application",
+      "slug": "saas-application",
+      "description": "Software as a Service application with subscription management, user dashboards, and scalable architecture. Perfect for startups launching digital products.",
+      "price": 499,
+      "delivery": "14 - 18 Days",
+      "rating": 4.9,
+      "reviews": 28,
+      "features": [
+        "User Authentication",
+        "Subscription Management",
+        "Dashboard & Analytics",
+        "Multi-tenant Architecture",
+        "API Rate Limiting",
+        "Email Notifications",
+        "Data Export",
+        "Scalable Infrastructure"
+      ],
+      "technologies": ["Next.js", "NestJS", "PostgreSQL", "Redis", "AWS", "Stripe"],
+      "includes": ["Subscription Setup", "User Onboarding", "Analytics Dashboard", "12 Months Support"],
+      "image": "/website/full.jpg"
+    }
+  ]
+}

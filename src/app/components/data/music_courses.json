@@ -1,0 +1,64 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "IGCSE Chemistry Mastery",
+      "slug": "igcse-chemistry-mastery",
+      "description": "Master IGCSE Chemistry with clear explanations, past paper practice, and exam-focused techniques to help you succeed with confidence.",
+      "price": 25.99,
+      "instructor": "Dr. Sarah Ahmed",
+      "isFeatured": true,
+      "image": "/courses/igs.jpg"
+    },
+    {
+      "id": 2,
+      "title": "O-Level Chemistry Complete Guide",
+      "slug": "o-level-chemistry-guide",
+      "description": "This comprehensive course covers all O-Level Chemistry concepts with structured lessons, practical examples, and mock assessments.",
+      "price": 20.99,
+      "instructor": "Mr. Faisal Khan",
+      "isFeatured": true,
+      "image": "/courses/o.jpg"
+    },
+    {
+      "id": 3,
+      "title": "A-Level Chemistry Deep Dive",
+      "slug": "a-level-chemistry-deep-dive",
+      "description": "Deepen your understanding of A-Level Chemistry with our expertly designed lessons, advanced problem-solving, and exam strategies.",
+      "price": 29.99,
+      "instructor": "Ms. Fatima Noor",
+      "isFeatured": true,
+      "image": "/courses/a.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Edexcel Chemistry Exam Prep",
+      "slug": "edexcel-chemistry-exam-prep",
+      "description": "Prepare for Edexcel Chemistry exams with targeted lessons, past paper walkthroughs, and topic-wise revision plans.",
+      "price": 35.99,
+      "instructor": "Mr. Zain Ali",
+      "isFeatured": true,
+      "image": "/courses/edex.jpg"
+    },
+    {
+      "id": 5,
+      "title": "OCR Chemistry Smart Revision",
+      "slug": "ocr-chemistry-smart-revision",
+      "description": "Revise smartly for OCR Chemistry with condensed notes, visual aids, and tutor-led walkthroughs of key concepts and questions.",
+      "price": 34.99,
+      "instructor": "Dr. Ayesha Malik",
+      "isFeatured": true,
+      "image": "/courses/ocr.jpg"
+    },
+    {
+      "id": 6,
+      "title": "FSc Chemistry Essentials",
+      "slug": "fsc-chemistry-essentials",
+      "description": "Build a solid foundation in FSc Chemistry with clear concepts, board-focused topics, and past paper practice for Part 1 and Part 2.",
+      "price": 24.99,
+      "instructor": "Sir Bilal Yousaf",
+      "isFeatured": true,
+      "image": "/courses/fsc.jpg"
+    }
+  ]
+}

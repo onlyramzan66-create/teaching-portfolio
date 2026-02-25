@@ -1,0 +1,88 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "Organic Chemistry Mastery",
+      "slug": "organic-chemistry-mastery",
+      "description": "Master organic chemistry with detailed explanations of reaction mechanisms, functional groups, and synthesis pathways. Perfect for A-Level, IGCSE, and FSc students.",
+      "price": 15,
+      "instructor": "Dr. Emily Rodriguez",
+      "image": "/courses/organic-chemistry.jpg",
+      "level": "Advanced",
+      "duration": "12 weeks",
+      "students": 45,
+      "rating": 4.9,
+      "topics": ["Alkanes & Alkenes", "Alcohols & Ethers", "Carboxylic Acids", "Reaction Mechanisms"]
+    },
+    {
+      "id": 2,
+      "title": "Physical Chemistry Fundamentals",
+      "slug": "physical-chemistry-fundamentals",
+      "description": "Understand thermodynamics, kinetics, and equilibrium with practical applications. Comprehensive coverage for exam success.",
+      "price": 12,
+      "instructor": "Prof. Michael Chen",
+      "image": "/courses/physical-chemistry.jpg",
+      "level": "Intermediate",
+      "duration": "10 weeks",
+      "students": 38,
+      "rating": 4.8,
+      "topics": ["Thermodynamics", "Chemical Kinetics", "Equilibrium", "Electrochemistry"]
+    },
+    {
+      "id": 3,
+      "title": "Inorganic Chemistry Complete",
+      "slug": "inorganic-chemistry-complete",
+      "description": "Comprehensive inorganic chemistry covering periodic trends, bonding, and transition metals. Essential for board exams.",
+      "price": 14,
+      "instructor": "Dr. James Wilson",
+      "image": "/courses/inorganic-chemistry.jpg",
+      "level": "Advanced",
+      "duration": "14 weeks",
+      "students": 52,
+      "rating": 4.9,
+      "topics": ["Periodic Table", "Chemical Bonding", "Transition Metals", "Coordination Compounds"]
+    },
+    {
+      "id": 4,
+      "title": "Chemistry for IGCSE & O-Level",
+      "slug": "chemistry-igcse-olevel",
+      "description": "Foundation course covering all IGCSE and O-Level chemistry topics with exam-focused practice and clear explanations.",
+      "price": 10,
+      "instructor": "Ms. Lisa Park",
+      "image": "/courses/igcse-chemistry.jpg",
+      "level": "Beginner to Intermediate",
+      "duration": "16 weeks",
+      "students": 67,
+      "rating": 4.7,
+      "topics": ["Atomic Structure", "Bonding", "Acids & Bases", "Organic Chemistry Basics"]
+    },
+    {
+      "id": 5,
+      "title": "A-Level Chemistry Intensive",
+      "slug": "alevel-chemistry-intensive",
+      "description": "Advanced A-Level chemistry preparation with detailed theory, practical work, and past paper practice for top grades.",
+      "price": 18,
+      "instructor": "Dr. Ahmed Hassan",
+      "image": "/courses/alevel-chemistry.jpg",
+      "level": "Advanced",
+      "duration": "20 weeks",
+      "students": 29,
+      "rating": 5.0,
+      "topics": ["Advanced Organic", "Physical Chemistry", "Inorganic Chemistry", "Practical Skills"]
+    },
+    {
+      "id": 6,
+      "title": "Chemistry Lab Techniques",
+      "slug": "chemistry-lab-techniques",
+      "description": "Learn essential laboratory skills, safety procedures, and practical chemistry techniques for exams and real-world applications.",
+      "price": 13,
+      "instructor": "Dr. Sarah Johnson",
+      "image": "/courses/chemistry-lab.jpg",
+      "level": "Intermediate",
+      "duration": "8 weeks",
+      "students": 41,
+      "rating": 4.8,
+      "topics": ["Lab Safety", "Titration", "Qualitative Analysis", "Instrumentation"]
+    }
+  ]
+}

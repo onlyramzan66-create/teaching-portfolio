@@ -1,0 +1,261 @@
+{
+  "physics": [
+    {
+      "id": 1,
+      "title": "Physics Fundamentals",
+      "slug": "physics-fundamentals",
+      "description": "Master the core concepts of physics including mechanics, thermodynamics, and electromagnetism with hands-on experiments and real-world applications.",
+      "price": 10,
+      "instructor": "Sir Ali Khan",
+      "image": "/science/physics.jpg",
+      "level": "Beginner to Intermediate",
+      "duration": "3-6 months",
+      "rating": 4.8,
+      "students": 245,
+      "topics": ["Mechanics", "Thermodynamics", "Electromagnetism", "Optics", "Modern Physics"],
+      "prerequisites": ["Basic Mathematics"]
+    },
+    {
+      "id": 2,
+      "title": "Advanced Physics",
+      "slug": "physics-advanced",
+      "description": "Dive deep into advanced physics topics including quantum mechanics, relativity, and nuclear physics with comprehensive problem-solving techniques.",
+      "price": 10,
+      "instructor": "Dr. Ahmed Hassan",
+      "image": "/science/physics-advanced.jpg",
+      "level": "Advanced",
+      "duration": "6-9 months",
+      "rating": 4.9,
+      "students": 156,
+      "topics": ["Quantum Mechanics", "Relativity", "Nuclear Physics", "Particle Physics", "Astrophysics"],
+      "prerequisites": ["Physics Fundamentals", "Calculus"]
+    }
+    ,
+    {
+      "id": 3,
+      "title": "A Level / O Level Physics Exam Prep",
+      "slug": "physics-exam-prep",
+      "description": "Focused exam preparation for A Level and O Level Physics: past paper practice, marking schemes, and timed mock exams.",
+      "price": 12,
+      "instructor": "Dr. Ahmed Hassan",
+      "image": "/science/physics-exam-prep.jpg",
+      "level": "A Level / O Level",
+      "duration": "2-4 months",
+      "rating": 4.9,
+      "students": 64,
+      "topics": ["Past Papers", "Exam Techniques", "Marking Schemes", "Time Management", "Common Mistakes"],
+      "prerequisites": ["Physics Fundamentals"]
+    }
+  ],
+  "mathematics": [
+    {
+      "id": 1,
+      "title": "Mathematics Fundamentals",
+      "slug": "math-fundamentals",
+      "description": "Build a strong foundation in mathematics covering algebra, geometry, trigonometry, and basic calculus with step-by-step problem-solving approaches.",
+      "price": 10,
+      "instructor": "Dr. Sarah Ahmed",
+      "image": "/science/math.jpg",
+      "level": "Beginner to Intermediate",
+      "duration": "4-6 months",
+      "rating": 4.7,
+      "students": 312,
+      "topics": ["Algebra", "Geometry", "Trigonometry", "Statistics", "Basic Calculus"],
+      "prerequisites": ["None"]
+    },
+    {
+      "id": 2,
+      "title": "Advanced Mathematics",
+      "slug": "math-advanced",
+      "description": "Master advanced mathematical concepts including calculus, linear algebra, and differential equations with applications in science and engineering.",
+      "price": 10,
+      "instructor": "Prof. Muhammad Ali",
+      "image": "/science/math-advanced.jpg",
+      "level": "Advanced",
+      "duration": "6-8 months",
+      "rating": 4.8,
+      "students": 198,
+      "topics": ["Calculus", "Linear Algebra", "Differential Equations", "Complex Analysis", "Number Theory"],
+      "prerequisites": ["Mathematics Fundamentals"]
+    }
+    ,
+    {
+      "id": 3,
+      "title": "A Level / O Level Mathematics Exam Prep",
+      "slug": "math-exam-prep",
+      "description": "Targeted A/O-Level maths preparation: worked solutions, past paper walkthroughs, and exam strategy workshops.",
+      "price": 12,
+      "instructor": "Prof. Muhammad Ali",
+      "image": "/science/math-exam-prep.jpg",
+      "level": "A Level / O Level",
+      "duration": "2-4 months",
+      "rating": 4.9,
+      "students": 82,
+      "topics": ["Past Papers", "Worked Solutions", "Exam Strategy", "Problem Solving", "Calculator Techniques"],
+      "prerequisites": ["Mathematics Fundamentals"]
+    }
+  ],
+  "biology": [
+    {
+      "id": 1,
+      "title": "Biology Fundamentals",
+      "slug": "biology-fundamentals",
+      "description": "Explore the fundamentals of life sciences including cell biology, genetics, ecology, and human physiology with interactive experiments and visual learning.",
+      "price": 10,
+      "instructor": "Ms. Fatima Noor",
+      "image": "/science/bio.jpg",
+      "level": "Beginner to Intermediate",
+      "duration": "3-5 months",
+      "rating": 4.6,
+      "students": 278,
+      "topics": ["Cell Biology", "Genetics", "Ecology", "Human Physiology", "Microbiology"],
+      "prerequisites": ["None"]
+    },
+    {
+      "id": 2,
+      "title": "Advanced Biology",
+      "slug": "biology-advanced",
+      "description": "Advance your knowledge in molecular biology, biotechnology, immunology, and evolutionary biology with research-oriented learning approaches.",
+      "price": 10,
+      "instructor": "Dr. Ayesha Khan",
+      "image": "/science/bio-advanced.jpg",
+      "level": "Advanced",
+      "duration": "5-7 months",
+      "rating": 4.9,
+      "students": 167,
+      "topics": ["Molecular Biology", "Biotechnology", "Immunology", "Evolutionary Biology", "Bioinformatics"],
+      "prerequisites": ["Biology Fundamentals", "Chemistry Basics"]
+    }
+  ],
+  "chemistry": [
+    {
+      "id": 1,
+      "title": "Chemistry Fundamentals",
+      "slug": "chemistry-fundamentals",
+      "description": "Learn the basics of chemistry including atomic structure, chemical bonding, reactions, and laboratory techniques with hands-on virtual experiments.",
+      "price": 10,
+      "instructor": "Dr. Hassan Raza",
+      "image": "/science/chemistry.jpg",
+      "level": "Beginner to Intermediate",
+      "duration": "3-5 months",
+      "rating": 4.7,
+      "students": 234,
+      "topics": ["Atomic Structure", "Chemical Bonding", "Reactions", "Acids & Bases", "Organic Chemistry"],
+      "prerequisites": ["Basic Mathematics"]
+    },
+    {
+      "id": 2,
+      "title": "Advanced Chemistry",
+      "slug": "chemistry-advanced",
+      "description": "Master advanced chemistry topics including physical chemistry, analytical chemistry, and biochemistry with industrial applications and research methods.",
+      "price": 10,
+      "instructor": "Prof. Nadia Malik",
+      "image": "/science/chemistry-advanced.jpg",
+      "level": "Advanced",
+      "duration": "5-7 months",
+      "rating": 4.8,
+      "students": 145,
+      "topics": ["Physical Chemistry", "Analytical Chemistry", "Biochemistry", "Industrial Chemistry", "Research Methods"],
+      "prerequisites": ["Chemistry Fundamentals", "Mathematics"]
+    }
+    ,
+    {
+      "id": 3,
+      "title": "A Level / O Level Chemistry Exam Prep",
+      "slug": "chemistry-exam-prep",
+      "description": "Practical and theory-focused exam prep for A/O-Level Chemistry including laboratory report techniques and past paper practice.",
+      "price": 12,
+      "instructor": "Prof. Nadia Malik",
+      "image": "/science/chemistry-exam-prep.jpg",
+      "level": "A Level / O Level",
+      "duration": "2-4 months",
+      "rating": 4.9,
+      "students": 70,
+      "topics": ["Practical Skills", "Past Papers", "Data Analysis", "Organic Mechanisms", "Exam Techniques"],
+      "prerequisites": ["Chemistry Fundamentals"]
+    }
+  ],
+  "english": [
+    {
+      "id": 1,
+      "title": "English Language & Literature",
+      "slug": "english-language-literature",
+      "description": "Develop strong English language skills including grammar, vocabulary, reading comprehension, and literary analysis with interactive writing exercises.",
+      "price": 10,
+      "instructor": "Ms. Maryam Shah",
+      "image": "/science/english.jpg",
+      "level": "Beginner to Intermediate",
+      "duration": "4-6 months",
+      "rating": 4.5,
+      "students": 289,
+      "topics": ["Grammar & Syntax", "Vocabulary Building", "Reading Comprehension", "Literary Analysis", "Creative Writing"],
+      "prerequisites": ["None"]
+    },
+    {
+      "id": 2,
+      "title": "Advanced English Studies",
+      "slug": "english-advanced",
+      "description": "Master advanced English skills including academic writing, critical analysis, rhetoric, and professional communication for higher education and careers.",
+      "price": 10,
+      "instructor": "Dr. Imran Khan",
+      "image": "/science/english-advanced.jpg",
+      "level": "Advanced",
+      "duration": "5-7 months",
+      "rating": 4.6,
+      "students": 178,
+      "topics": ["Academic Writing", "Critical Analysis", "Rhetoric", "Professional Communication", "Research Papers"],
+      "prerequisites": ["English Language & Literature"]
+    }
+  ],
+  "computer_science": [
+    {
+      "id": 1,
+      "title": "Computer Science Fundamentals",
+      "slug": "computer-science-fundamentals",
+      "description": "Introduction to computer science covering programming basics, algorithms, data structures, and computational thinking with practical coding exercises.",
+      "price": 10,
+      "instructor": "Mr. Zain Ahmed",
+      "image": "/science/computer-science.jpg",
+      "level": "Beginner to Intermediate",
+      "duration": "4-6 months",
+      "rating": 4.8,
+      "students": 267,
+      "topics": ["Programming Basics", "Algorithms", "Data Structures", "Computational Thinking", "Problem Solving"],
+      "prerequisites": ["Basic Mathematics"]
+    }
+  ],
+  "economics": [
+    {
+      "id": 1,
+      "title": "Economics Fundamentals",
+      "slug": "economics-fundamentals",
+      "description": "Learn the principles of microeconomics and macroeconomics with real-world applications, case studies, and current economic analysis.",
+      "price": 10,
+      "instructor": "Dr. Bilal Hassan",
+      "image": "/science/economics.jpg",
+      "level": "Beginner to Intermediate",
+      "duration": "3-5 months",
+      "rating": 4.4,
+      "students": 198,
+      "topics": ["Microeconomics", "Macroeconomics", "Economic Theory", "Market Analysis", "Policy Studies"],
+      "prerequisites": ["Mathematics Fundamentals"]
+    }
+  ],
+  "geography": [
+    {
+      "id": 1,
+      "title": "Geography & Earth Sciences",
+      "slug": "geography-earth-sciences",
+      "description": "Explore physical and human geography, environmental science, and earth systems with maps, case studies, and field-based learning approaches.",
+      "price": 10,
+      "instructor": "Ms. Aisha Bibi",
+      "image": "/science/geography.jpg",
+      "level": "Beginner to Intermediate",
+      "duration": "3-5 months",
+      "rating": 4.3,
+      "students": 156,
+      "topics": ["Physical Geography", "Human Geography", "Environmental Science", "Earth Systems", "Climate Studies"],
+      "prerequisites": ["None"]
+    }
+  ]
+}
