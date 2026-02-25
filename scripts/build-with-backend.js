@@ -1,6 +1,34 @@
 const { spawn } = require("node:child_process");
 const http = require("node:http");
 
+const fs = require("node:fs");
+const path = require("node:path");
+
+function loadEnvFile(filePath) {
+  if (!fs.existsSync(filePath)) return;
+  const raw = fs.readFileSync(filePath, "utf8");
+  for (const line of raw.split(/\r?\n/)) {
+    const trimmed = line.trim();
+    if (!trimmed || trimmed.startsWith("#")) continue;
+    const eqIndex = trimmed.indexOf("=");
+    if (eqIndex === -1) continue;
+    const key = trimmed.slice(0, eqIndex).trim();
+    let value = trimmed.slice(eqIndex + 1).trim();
+    value = value.replace(/^['"]|['"]$/g, "");
+    if (!process.env[key]) {
+      process.env[key] = value;
+    }
+  }
+}
+
+// Ensure backend env is available during build (especially on CI/Hostinger).
+loadEnvFile(path.join(process.cwd(), "backend", ".env.backend"));
+loadEnvFile(path.join(process.cwd(), "backend", ".env"));
+
+if (!process.env.NODE_ENV) {
+  process.env.NODE_ENV = "production";
+}
+
 const BACKEND_PORT = process.env.PORT || 5000;
 const BACKEND_URL = `http://localhost:${BACKEND_PORT}/posts?limit=1`;
 const STARTUP_TIMEOUT_MS = 120000;
