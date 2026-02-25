@@ -5,9 +5,11 @@
   "scripts": {
     "dev": "next dev",
     "dev:backend": "npm --prefix backend run start:dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "build": "next build && npm --prefix backend run build",
+    "start": "node backend/dist/main.js",
+    "start:web": "next start",
+    "lint": "next lint",
+    "postinstall": "npm --prefix backend install"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
