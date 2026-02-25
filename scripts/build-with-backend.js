@@ -21,7 +21,9 @@ function loadEnvFile(filePath) {
   }
 }
 
-// Ensure backend env is available during build (especially on CI/Hostinger).
+// Ensure backend and frontend env are available during build (especially on CI/Hostinger).
+loadEnvFile(path.join(process.cwd(), ".env.local"));
+loadEnvFile(path.join(process.cwd(), ".env.local2"));
 loadEnvFile(path.join(process.cwd(), "backend", ".env.backend"));
 loadEnvFile(path.join(process.cwd(), "backend", ".env"));
 
