@@ -1,5 +1,0 @@
-User-Agent: *
-Allow: /
-
-Host: https://www.gohar.online
-Sitemap: https://www.gohar.online/sitemap.xml
