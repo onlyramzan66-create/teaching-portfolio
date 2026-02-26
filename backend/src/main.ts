@@ -25,7 +25,7 @@ async function bootstrap() {
   const frontendDist =
     process.env.FRONTEND_DIST_DIR?.trim()
       ? join(process.cwd(), process.env.FRONTEND_DIST_DIR.trim())
-      : join(process.cwd(), '..', 'out');
+      : join(process.cwd(), 'out');
   const hasFrontendBuild = existsSync(frontendDist);
   if (hasFrontendBuild) {
     app.useStaticAssets(frontendDist);

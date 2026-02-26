@@ -8,12 +8,16 @@
     "install:backend": "npm --prefix backend install",
     "build:backend": "npm --prefix backend run build",
     "start:backend": "node backend/dist/main.js",
+    "start:backend:prod": "npm --prefix backend run start:prod",
     "build:frontend": "node scripts/build-with-backend.js",
     "prebuild": "node scripts/check-env.js",
     "build": "npm --prefix backend run build && node scripts/ensure-out.js",
     "start": "node backend/dist/main.js",
     "start:web": "next start",
     "lint": "next lint",
+    "lint:backend": "npm --prefix backend run lint",
+    "test:backend": "npm --prefix backend run test",
+    "seed:posts": "npm --prefix backend run seed:posts",
     "postinstall": "npm --prefix backend install"
   },
   "dependencies": {
