@@ -18,3 +18,9 @@ if (missing.length > 0) {
   }
   process.exit(1);
 }
+
+const dbUser = String(process.env.DB_USER || "").trim().toLowerCase();
+if (!dbUser || dbUser === "root") {
+  console.error("Invalid DB_USER. Do not use 'root' in production. Set Hostinger MySQL user.");
+  process.exit(1);
+}
