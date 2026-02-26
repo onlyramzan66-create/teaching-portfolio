@@ -10,7 +10,7 @@
     "start:backend": "node backend/dist/main.js",
     "build:frontend": "node scripts/build-with-backend.js",
     "prebuild": "node scripts/check-env.js",
-    "build": "npm --prefix backend run build && node scripts/build-with-backend.js",
+    "build": "npm --prefix backend run build",
     "start": "node backend/dist/main.js",
     "start:web": "next start",
     "lint": "next lint",
